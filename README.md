@@ -30,10 +30,29 @@ Experimental comparison of sequential partitioning, Linux processes with shared 
 - **Focus:** processes, threads, IPC, performance methodology
 - **Evidence:** reproducible output validation passes on Linux and Windows in GitHub Actions
 
+## Computer architecture and low-level systems
+
+### [Pipelined MIPS-Lite CPU](https://github.com/Xeowa/pipelined-mips-cpu)
+
+Five-stage educational Verilog processor with explicit pipeline registers, control/ALU/memory modules, divider and HI/LO paths, and a self-checking Icarus Verilog integration test.
+
+- **Language:** Verilog
+- **Focus:** pipelined datapath, processor control, simulation, verification boundaries
+- **Context:** four-person team project; personal contribution and publication consent documented
+
+### [ARM Julia Set Renderer](https://github.com/Xeowa/arm-julia-set)
+
+ARMv7 fixed-point Julia set renderer with an AAPCS-correct assembly implementation, cross-compilation workflow, and deterministic 640 × 480 output verification under QEMU.
+
+- **Language:** ARM assembly and C
+- **Focus:** fixed-point arithmetic, register allocation, ABI correctness, cross-platform verification
+- **Context:** two-person team project; personal contribution and publication consent documented
+
 ## Additional work
 
 - [RPG Quest Notification System](https://github.com/Xeowa/rpg-quest-system) — Java Observer/Strategy design-pattern exercise with JUnit verification.
 - [Poker Hand Evaluator](https://github.com/Xeowa/poker-hand-evaluator) — dependency-free C11 evaluator with category, tie-break, parsing, and validation tests passing on Linux and Windows.
+- [SEM Music Dataset](https://github.com/Xeowa/A-Social-Emotional-Music-DataSet) — 419-track research dataset with scoped rights documentation and machine-readable citation metadata.
 
 ## Technical areas
 
@@ -43,6 +62,8 @@ Experimental comparison of sequential partitioning, Linux processes with shared 
 | Programming languages | scanner, parser, S-expressions, evaluator, lexical environment, closures |
 | Systems | processes, threads, shared memory, synchronization, benchmarking |
 | Computer architecture | Verilog, pipelined datapath, ALU, control, testbench |
+| Low-level programming | ARMv7 assembly, fixed-point arithmetic, AAPCS, cross-compilation, QEMU |
+| Research data | dataset documentation, citation metadata, rights and limitation statements |
 | Software engineering | Git, CMake, Maven, automated tests, GitHub Actions, technical documentation |
 
 ## Portfolio principles
