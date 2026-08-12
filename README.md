@@ -52,7 +52,8 @@ ARMv7 fixed-point Julia set renderer with an AAPCS-correct assembly implementati
 
 - [RPG Quest Notification System](https://github.com/Xeowa/rpg-quest-system) — Java Observer/Strategy design-pattern exercise with JUnit verification.
 - [Poker Hand Evaluator](https://github.com/Xeowa/poker-hand-evaluator) — dependency-free C11 evaluator with category, tie-break, parsing, and validation tests passing on Linux and Windows.
-- [SEM Music Dataset](https://github.com/Xeowa/A-Social-Emotional-Music-DataSet) — 419-track research dataset with scoped rights documentation and machine-readable citation metadata.
+- [SEM Music Dataset](https://github.com/Xeowa/A-Social-Emotional-Music-DataSet) — expert-annotated 419-track dataset associated with the peer-reviewed LSEL music-classification study.
+- [MoodTune](https://github.com/Xeowa/MoodTune) — React/FastAPI research prototype for local mood journaling, audio-library management, and explainable music exploration.
 
 ## Technical areas
 
@@ -64,6 +65,7 @@ ARMv7 fixed-point Julia set renderer with an AAPCS-correct assembly implementati
 | Computer architecture | Verilog, pipelined datapath, ALU, control, testbench |
 | Low-level programming | ARMv7 assembly, fixed-point arithmetic, AAPCS, cross-compilation, QEMU |
 | Research data | dataset documentation, citation metadata, rights and limitation statements |
+| Web applications | React, FastAPI, SQLite, REST APIs, responsive interfaces, local-first data |
 | Software engineering | Git, CMake, Maven, automated tests, GitHub Actions, technical documentation |
 
 ## Portfolio principles
