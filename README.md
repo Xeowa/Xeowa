@@ -30,7 +30,41 @@ Experimental comparison of sequential partitioning, Linux processes with shared 
 - **Focus:** processes, threads, IPC, performance methodology
 - **Evidence:** reproducible output validation passes on Linux and Windows in GitHub Actions
 
-## Computer architecture and low-level systems
+## Competition projects
+
+### [AI CUP 2025 Cardiac CT Segmentation](https://github.com/Xeowa/aicup-2025-cardiac-segmentation)
+
+Three-person AI CUP team project using an nnU-Net v2 3D full-resolution pipeline for cardiac CT segmentation.
+
+- **Role:** team lead
+- **Result:** Public 35/253 (top 13.8%); Private 55/253 (top 21.7%)
+- **Focus:** medical-image segmentation, reproducible experiment configuration, data-governance boundaries
+
+### [IMBD 2025 Thermal Displacement Prediction](https://github.com/Xeowa/imbd-2025-thermal-displacement)
+
+Mamba-inspired multivariate time-series model for predicting two-axis CNC lathe thermal displacement from sensor histories.
+
+- **Role:** team lead in a three-student team with faculty guidance
+- **Result:** advanced to the national final; historical internal validation RMSE 1.269709 μm
+- **Focus:** sequence regression, leakage-aware validation, industrial-data constraints
+
+## Research and applied AI
+
+### [SEM Music Dataset](https://github.com/Xeowa/A-Social-Emotional-Music-DataSet)
+
+Expert-annotated 419-track dataset associated with the peer-reviewed LSEL music-classification study.
+
+- **Focus:** research data, expert annotation, citation metadata, rights and limitation statements
+- **Evidence:** public Kaggle release and peer-reviewed paper
+
+### [MoodTune](https://github.com/Xeowa/MoodTune)
+
+React/FastAPI research prototype for local mood journaling, audio-library management, and explainable music exploration.
+
+- **Focus:** research-to-prototype translation, local-first data, transparent recommendation rules
+- **Evidence:** automated backend tests, production frontend build, and documented research boundary
+
+## Systems and computer architecture
 
 ### [Pipelined MIPS-Lite CPU](https://github.com/Xeowa/pipelined-mips-cpu)
 
@@ -52,14 +86,13 @@ ARMv7 fixed-point Julia set renderer with an AAPCS-correct assembly implementati
 
 - [RPG Quest Notification System](https://github.com/Xeowa/rpg-quest-system) — Java Observer/Strategy design-pattern exercise with JUnit verification.
 - [Poker Hand Evaluator](https://github.com/Xeowa/poker-hand-evaluator) — dependency-free C11 evaluator with category, tie-break, parsing, and validation tests passing on Linux and Windows.
-- [SEM Music Dataset](https://github.com/Xeowa/A-Social-Emotional-Music-DataSet) — expert-annotated 419-track dataset associated with the peer-reviewed LSEL music-classification study.
-- [MoodTune](https://github.com/Xeowa/MoodTune) — React/FastAPI research prototype for local mood journaling, audio-library management, and explainable music exploration.
 
 ## Technical areas
 
 | Area | Tools and concepts |
 | --- | --- |
 | Artificial intelligence | Negamax, Alpha-Beta, PVS, heuristic search, threat detection |
+| Applied machine learning | 3D medical-image segmentation, nnU-Net, time-series regression, Mamba-inspired sequence modeling, leakage-aware validation |
 | Programming languages | scanner, parser, S-expressions, evaluator, lexical environment, closures |
 | Systems | processes, threads, shared memory, synchronization, benchmarking |
 | Computer architecture | Verilog, pipelined datapath, ALU, control, testbench |
@@ -73,6 +106,7 @@ ARMv7 fixed-point Julia set renderer with an AAPCS-correct assembly implementati
 - Each substantial project has its own repository, build instructions, tests, and limitations.
 - Course handouts and instructor-authored reference implementations are not republished.
 - Team projects explicitly distinguish personal contribution from team output.
+- Competition repositories exclude organizer datasets and distinguish official leaderboard results from internal validation.
 - Historical benchmark results are labeled as historical rather than presented as current universal claims.
 
 ## Contact
