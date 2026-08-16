@@ -30,11 +30,29 @@ Experimental comparison of sequential partitioning, Linux processes with shared 
 - **Focus:** processes, threads, IPC, performance methodology
 - **Evidence:** reproducible output validation passes on Linux and Windows in GitHub Actions
 
+## Systems and computer architecture
+
+### [Pipelined MIPS-Lite CPU](https://github.com/Xeowa/pipelined-mips-cpu)
+
+Five-stage educational Verilog processor with explicit pipeline registers, control/ALU/memory modules, divider and HI/LO paths, and a self-checking Icarus Verilog integration test.
+
+- **Language:** Verilog
+- **Focus:** pipelined datapath, processor control, simulation, verification boundaries
+- **Context:** four-person team project; personal contribution and publication consent documented
+
+### [ARM Julia Set Renderer](https://github.com/Xeowa/arm-julia-set)
+
+ARMv7 fixed-point Julia set renderer with an AAPCS-correct assembly implementation, cross-compilation workflow, and deterministic 640 × 480 output verification under QEMU.
+
+- **Language:** ARM assembly and C
+- **Focus:** fixed-point arithmetic, register allocation, ABI correctness, cross-platform verification
+- **Context:** two-person team project; personal contribution and publication consent documented
+
 ## Competition projects
 
 ### [AI CUP 2025 Cardiac CT Segmentation](https://github.com/Xeowa/aicup-2025-cardiac-segmentation)
 
-Three-person AI CUP team project using an nnU-Net v2 3D full-resolution pipeline for cardiac CT segmentation.
+Three-student AI CUP team project with faculty guidance, using an nnU-Net v2 3D full-resolution pipeline for cardiac CT segmentation.
 
 - **Role:** team lead
 - **Result:** Public 35/253 (top 13.8%); Private 55/253 (top 21.7%)
@@ -63,24 +81,6 @@ React/FastAPI research prototype for local mood journaling, audio-library manage
 
 - **Focus:** research-to-prototype translation, local-first data, transparent recommendation rules
 - **Evidence:** automated backend tests, production frontend build, and documented research boundary
-
-## Systems and computer architecture
-
-### [Pipelined MIPS-Lite CPU](https://github.com/Xeowa/pipelined-mips-cpu)
-
-Five-stage educational Verilog processor with explicit pipeline registers, control/ALU/memory modules, divider and HI/LO paths, and a self-checking Icarus Verilog integration test.
-
-- **Language:** Verilog
-- **Focus:** pipelined datapath, processor control, simulation, verification boundaries
-- **Context:** four-person team project; personal contribution and publication consent documented
-
-### [ARM Julia Set Renderer](https://github.com/Xeowa/arm-julia-set)
-
-ARMv7 fixed-point Julia set renderer with an AAPCS-correct assembly implementation, cross-compilation workflow, and deterministic 640 × 480 output verification under QEMU.
-
-- **Language:** ARM assembly and C
-- **Focus:** fixed-point arithmetic, register allocation, ABI correctness, cross-platform verification
-- **Context:** two-person team project; personal contribution and publication consent documented
 
 ## Additional work
 
