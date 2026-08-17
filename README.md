@@ -52,9 +52,9 @@ ARMv7 fixed-point Julia set renderer with an AAPCS-correct assembly implementati
 
 ### [AI CUP 2025 Cardiac CT Segmentation](https://github.com/Xeowa/aicup-2025-cardiac-segmentation)
 
-Three-student AI CUP team project with faculty guidance, using an nnU-Net v2 3D full-resolution pipeline for cardiac CT segmentation.
+An nnU-Net v2 3D full-resolution pipeline for cardiac CT segmentation.
 
-- **Role:** team lead
+- **Role:** team lead in a three-student team with one faculty advisor
 - **Result:** Public 35/253 (top 13.8%); Private 55/253 (top 21.7%)
 - **Focus:** medical-image segmentation, reproducible experiment configuration, data-governance boundaries
 
@@ -62,7 +62,7 @@ Three-student AI CUP team project with faculty guidance, using an nnU-Net v2 3D 
 
 Mamba-inspired multivariate time-series model for predicting two-axis CNC lathe thermal displacement from sensor histories.
 
-- **Role:** team lead in a three-student team with faculty guidance
+- **Role:** team lead in a three-student team with one faculty advisor
 - **Result:** advanced to the national final; historical internal validation RMSE 1.269709 μm
 - **Focus:** sequence regression, leakage-aware validation, industrial-data constraints
 
