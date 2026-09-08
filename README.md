@@ -10,6 +10,7 @@ Computer Science student interested in artificial intelligence, programming lang
 
 Deterministic 15x15 Gomoku engine with Negamax, Alpha-Beta pruning, PVS, transposition tables, tactical threat detection, and time-bounded search.
 
+- **Course:** 人工智慧
 - **Language:** Python
 - **Focus:** adversarial search, heuristic evaluation, runtime control
 - **Evidence:** automated rule/protocol tests and passing GitHub Actions
@@ -18,6 +19,7 @@ Deterministic 15x15 Gomoku engine with Negamax, Alpha-Beta pruning, PVS, transpo
 
 C++ Scheme-like interpreter with a hand-written scanner, recursive parser, S-expression model, lexical environments, closures, special forms, primitives, and structured errors.
 
+- **Course:** 程式語言
 - **Language:** C++17
 - **Focus:** language implementation, parsing, evaluation, lexical scoping
 - **Evidence:** smoke tests pass with GCC, Clang, and MSVC in GitHub Actions
@@ -26,6 +28,7 @@ C++ Scheme-like interpreter with a hand-written scanner, recursive parser, S-exp
 
 Experimental comparison of sequential partitioning, Linux processes with shared memory, C++ threads, and an in-place QuickSort baseline.
 
+- **Course:** 作業系統
 - **Language:** C++17
 - **Focus:** processes, threads, IPC, performance methodology
 - **Evidence:** reproducible output validation passes on Linux and Windows in GitHub Actions
@@ -36,6 +39,7 @@ Experimental comparison of sequential partitioning, Linux processes with shared 
 
 Five-stage educational Verilog processor with explicit pipeline registers, control/ALU/memory modules, divider and HI/LO paths, and a self-checking Icarus Verilog integration test.
 
+- **Course:** 計算機組織
 - **Language:** Verilog
 - **Focus:** pipelined datapath, processor control, simulation, verification boundaries
 - **Context:** four-person team project; personal contribution and publication consent documented
@@ -44,6 +48,7 @@ Five-stage educational Verilog processor with explicit pipeline registers, contr
 
 ARMv7 fixed-point Julia set renderer with an AAPCS-correct assembly implementation, cross-compilation workflow, and deterministic 640 × 480 output verification under QEMU.
 
+- **Course:** 嵌入式與組合語言
 - **Language:** ARM assembly and C
 - **Focus:** fixed-point arithmetic, register allocation, ABI correctness, cross-platform verification
 - **Context:** two-person team project; personal contribution and publication consent documented
@@ -54,6 +59,8 @@ ARMv7 fixed-point Julia set renderer with an AAPCS-correct assembly implementati
 
 An nnU-Net v2 3D full-resolution pipeline for cardiac CT segmentation.
 
+- **Competition:** AI CUP 競賽（教育部全國大專校院人工智慧競賽）
+- **Official website:** <https://www.aicup.tw/ai-cup-2025-competition>
 - **Role:** team lead in a three-student team with one faculty advisor
 - **Result:** Public 35/253 (top 13.8%); Private 55/253 (top 21.7%)
 - **Focus:** medical-image segmentation, reproducible experiment configuration, data-governance boundaries
@@ -62,6 +69,8 @@ An nnU-Net v2 3D full-resolution pipeline for cardiac CT segmentation.
 
 Mamba-inspired multivariate time-series model for predicting two-axis CNC lathe thermal displacement from sensor histories.
 
+- **Competition:** IMBD 競賽（2025 全國智慧製造大數據分析競賽；教育部指導）
+- **Official website:** <https://imbd2025.thu.edu.tw/>
 - **Role:** team lead in a three-student team with one faculty advisor
 - **Result:** advanced to the national final; historical internal validation RMSE 1.269709 μm
 - **Focus:** sequence regression, leakage-aware validation, industrial-data constraints
@@ -84,8 +93,8 @@ React/FastAPI research prototype for local mood journaling, audio-library manage
 
 ## Additional work
 
-- [RPG Quest Notification System](https://github.com/Xeowa/rpg-quest-system) — Java Observer/Strategy design-pattern exercise with JUnit verification.
-- [Poker Hand Evaluator](https://github.com/Xeowa/poker-hand-evaluator) — dependency-free C11 evaluator with category, tie-break, parsing, and validation tests passing on Linux and Windows.
+- [RPG Quest Notification System](https://github.com/Xeowa/rpg-quest-system) — **Course:** 物件導向程式設計；Java Observer/Strategy design-pattern exercise with JUnit verification.
+- [Poker Hand Evaluator](https://github.com/Xeowa/poker-hand-evaluator) — **Course:** 計算機概論；dependency-free C11 evaluator with category, tie-break, parsing, and validation tests passing on Linux and Windows.
 
 ## Technical areas
 
