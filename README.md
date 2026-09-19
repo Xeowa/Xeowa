@@ -1,4 +1,4 @@
-# Xeowa | Computer Science Portfolio
+# Kuang-Kai Yeh | Computer Science Portfolio
 
 Computer Science student interested in artificial intelligence, programming languages, systems software, and computer architecture.
 
